@@ -4,9 +4,17 @@
     justify-content: space-around;
 }
 
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
 .everything{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .links{
@@ -70,10 +78,27 @@
     align-items: center;
     padding: 50px;
     background-color: aqua;
+    margin-top: 25px;
 }
 
 .atribution{
     text-align: right;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    margin: auto;
+    padding: 25px;
+    margin-top: 25px;
+    gap: 100px;
+}
+
+.footer{
+    background-color: burlywood;
+    text-align: center;
+    margin-top: auto;
 }
 
 a{
