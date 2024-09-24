@@ -2,6 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #c08552;
+    padding-top: 10px;
+}
+
+.header-logo{
+    font-weight: 700;
+    color:#5e3023;
+    font-size: larger;
 }
 
 .content{
@@ -15,6 +23,7 @@
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-color: #dab49d;
 }
 
 .links{
@@ -24,83 +33,129 @@
     gap: 20px;
 }
 
-/* .header-logo{
-    margin-right: auto;
-} */
-
 .top{
     display: flex;
-    justify-content: center;
-    /* margin-left: 150px;
-    margin-right: 150px; */
-    margin-top: 50px;
-    gap: 100px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #c08552;
+    padding-bottom: 60px;
+}
+
+.top-header{
+    font-size: 2.25em;
+    font-weight:700;
+    color: aliceblue;
+}
+
+.top-content{
+    color: aliceblue;
 }
 
 .button{
     /* Both of these options stop the button from growing along the cross axis, oddly flex-grow:0 does not have the same affect */
     /* max-width: fit-content; */
     align-self: flex-start;
+    background-color: #3882f6;
+    color:aliceblue;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100px;
+    cursor:-webkit-zoom-in;
+    border: 1px solid white;
 }
 
 .middle{
+    padding-top: 40px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color: #dab49d;
 }
 
 .middle-content{
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    color: #5e3023;
+    font-size: 1.2em;
 }
 
-.image-txt{
-    display: flex;
-    flex-direction: column;
+.middle-title{
+    color: #5e3023;
+    font-size: 1.75em;
+    font-weight: 600;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.txt{
+    max-width: 235px;
+    text-align: center;
+}
+
+.img{
+    border: 5px solid #5e3023;
+    border-radius: 20px;
+    width: fit-content;
 }
 
 .top-text{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 350px;
+    max-width: 300px;
     gap: 10px;
-}
-
-.middle-content{
-    display: flex;
 }
 
 .cat-quote{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
-    background-color: aqua;
-    margin-top: 25px;
+    padding: 75px;
+    padding-left: 35%;
+    padding-right: 35%;
+    background-color: #f3e9dc;
+    font-size: 1.75em;
+    color: #5e3023;
 }
 
 .atribution{
-    text-align: right;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: .75em;
 }
 
 .bottom{
     display: flex;
     justify-content: space-evenly;
-    background-color: blueviolet;
-    margin: auto;
+    background-color:#3882f6;
+    margin: 300px;
     padding: 25px;
-    margin-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     gap: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    /* width: 800px; */
+}
+
+.bot-big{
+    font-size: 1.25em;
+    font-weight: 700;
 }
 
 .footer{
-    background-color: burlywood;
+    background-color: #c08552;
     text-align: center;
-    margin-top: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #5e3023;
 }
 
 a{
     text-decoration: none;
+    color: #5e3023;
 }
